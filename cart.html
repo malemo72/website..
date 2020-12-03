@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWxm9kOXJBcAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            
+        }
+      </style>
+      </head>
+      <body>
+
+<form name="ShoppingList">
+    <fieldset>
+        <legend>Shopping cart</legend>
+        <label>Item: <input type="text" name="name"></label>
+        <label>Quantity: <input type="text" name="data"></label>
+        <p>shoes</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSgM-l8wizbzQUjD0wk2dKmYmFzPgNopqe6w&usqp=CAU"width=200px>
+
+        <p>price  2000ksh</p>
+        <p>accesories</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbDSi_JdrLrvWz7zHMPvyYxx-qyOAirKKvfQ&usqp=CAU"width=300px>
+        <P>price 1500ksh</P>
+        <button onclick="document.location=' default.asp'">update</button>
+        <button onclick="document.location=' default.asp'">total</button>
+        <button onclick="document.location=' default.asp'">delete</button>
+        <button onclick="document.location=' default.asp'">check out</button>
+    </fieldset>
+    <div id="items_table">
+        
+        <table id="list"></table>
+        
+    </div>
+</form>
+</body>
+</html>
